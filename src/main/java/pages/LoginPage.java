@@ -45,4 +45,10 @@ public class LoginPage {
         return new SidePanelPage(driver);
     }
 
+    public  MyInfoPage clickLoginMyInfoPage() throws InterruptedException {
+        Thread.sleep(3500);
+        logIn();
+        return new MyInfoPage(driver);
+    }
+
 }
